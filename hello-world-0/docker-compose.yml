@@ -1,0 +1,6 @@
+version: '1.0'
+
+services:
+  hello-world: 
+    image: alpine:latest
+    command: tail -f /dev/null
